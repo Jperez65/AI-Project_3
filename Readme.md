@@ -34,7 +34,9 @@ When it the players turn it would ask two vertex from where to form a line and s
 
 
 >Your turn now:
+>
 >Map:
+>
 >[0, 1, 0, 0, 2, 0]
 >
 >[1, 0, 1, 0, 2, 0]
