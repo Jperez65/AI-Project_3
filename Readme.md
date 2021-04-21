@@ -4,9 +4,9 @@
 To compile file you must have python 3.8.5 ver installed in your system environment or use any other IDE programs. 
 After that you must go to the directory where the program is located and write 
 
- 
->python Project3.py
-
+''' 
+python Project3.py
+'''
 
 to your console terminal
 
