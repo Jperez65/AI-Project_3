@@ -36,10 +36,15 @@ When it the players turn it would ask two vertex from where to form a line and s
 >Your turn now:
 >Map:
 >[0, 1, 0, 0, 2, 0]
+>
 >[1, 0, 1, 0, 2, 0]
+>
 >[0, 1, 0, 2, 0, 0]
+>
 >[0, 0, 2, 0, 0, 0]
+>
 >[2, 2, 0, 0, 0, 2]
+>
 >[0, 0, 0, 0, 2, 0]
 
 
@@ -47,18 +52,24 @@ If the player or Ai makes a move that leads it to lose the it output the player 
 
 
 >You won the game
+>
 >[0, 1, 1, 0, 2, 1]
+>
 >[1, 0, 1, 0, 2, 0]
+>
 >[1, 1, 0, 2, 0, 0]
+>
 >[0, 0, 2, 0, 0, 0]
+>
 >[2, 2, 0, 0, 0, 2]
+>
 >[1, 0, 0, 0, 2, 0]
 
 Fair warning for when it is turn of the Ai there is no alpha beta prunning or depth limit thus it may take more than a minute for the ai to compute a designated move set. While the ai player is searching for a move it would output this message
 
-'''text
-Ai is thinking of a move
-'''
+
+>Ai is thinking of a move
+
 
 To let the human player that it still in the process of thinking. However to verify if its functionality are in working condition you can change the initial game chart to one that has already move set up as it reduce the time it checks for move set.
 
