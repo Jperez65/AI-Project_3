@@ -4,9 +4,9 @@
 To compile file you must have python 3.8.5 ver installed in your system environment or use any other IDE programs. 
 After that you must go to the directory where the program is located and write 
 
-'''bash 
-python Project3.py
-'''
+ 
+>python Project3.py
+
 
 to your console terminal
 
@@ -14,46 +14,46 @@ to your console terminal
 
 When running the program it will output a this message:
 
-'''text
-Welcome to my Hexagon game:
-Which player would you be the ai? Player 1 or Player 2 
-'''
+
+>Welcome to my Hexagon game:
+>Which player would you be the ai? Player 1 or Player 2 
+>
 
 You will need to designate which player the ai would start, as 1 represent solid line and 2 represent dashe line. You as the player would be pick the opposite from the ai. Afterward, the terminal will output the turn of the player based on the ordering it has been assign to:
 
-'''text
-AI turn
-'''
+
+>AI turn
+
 or 
 
-'''text
-Your turn now:
-'''
+
+>Your turn now:
+
 
 When it the players turn it would ask two vertex from where to form a line and show the matrix map to see which point are available. Index that are 0 means that it is a valid move, 1 for player 1 and 2 for player 2.
 
-'''text
-Your turn now:
-Map:
-[0, 1, 0, 0, 2, 0]
-[1, 0, 1, 0, 2, 0]
-[0, 1, 0, 2, 0, 0]
-[0, 0, 2, 0, 0, 0]
-[2, 2, 0, 0, 0, 2]
-[0, 0, 0, 0, 2, 0]
-'''
+
+>Your turn now:
+>Map:
+>[0, 1, 0, 0, 2, 0]
+>[1, 0, 1, 0, 2, 0]
+>[0, 1, 0, 2, 0, 0]
+>[0, 0, 2, 0, 0, 0]
+>[2, 2, 0, 0, 0, 2]
+>[0, 0, 0, 0, 2, 0]
+
 
 If the player or Ai makes a move that leads it to lose the it output the player or ai has one.
 
-'''text
-You won the game
-[0, 1, 1, 0, 2, 1]
-[1, 0, 1, 0, 2, 0]
-[1, 1, 0, 2, 0, 0]
-[0, 0, 2, 0, 0, 0]
-[2, 2, 0, 0, 0, 2]
-[1, 0, 0, 0, 2, 0]
-'''
+
+>You won the game
+>[0, 1, 1, 0, 2, 1]
+>[1, 0, 1, 0, 2, 0]
+>[1, 1, 0, 2, 0, 0]
+>[0, 0, 2, 0, 0, 0]
+>[2, 2, 0, 0, 0, 2]
+>[1, 0, 0, 0, 2, 0]
+
 Fair warning for when it is turn of the Ai there is no alpha beta prunning or depth limit thus it may take more than a minute for the ai to compute a designated move set. While the ai player is searching for a move it would output this message
 
 '''text
@@ -62,7 +62,7 @@ Ai is thinking of a move
 
 To let the human player that it still in the process of thinking. However to verify if its functionality are in working condition you can change the initial game chart to one that has already move set up as it reduce the time it checks for move set.
 
-## classes and function
+## Classes and function
 
 File only contain one class, Hexagon class, where it contain all the necessary function to create a minimax algorithm game
 
